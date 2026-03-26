@@ -10,7 +10,7 @@ const Window = (): JSX.Element => (
   <GameContextProvider>
     <div
       css={css`
-        padding: 16px;
+        padding: 0;
       `}
     >
       <div

@@ -32,11 +32,23 @@ export function Layout({ children }: LayoutProps): JSX.Element {
       font-weight: 700;
     }
 
+    html,
+    body,
+    #___gatsby,
+    #gatsby-focus-wrapper {
+      margin: 0;
+      padding: 0;
+      width: fit-content;
+      height: fit-content;
+      overflow: hidden;
+    }
+
     body {
       background-color: #3a6ea5;
       font-family: 'Segoe UI', sans-serif;
       font-size: 11px;
       overscroll-behavior: none;
+      display: inline-block;
     }
   `;
 

@@ -9,7 +9,7 @@ export default function IndexPage(): JSX.Element {
     <Layout>
       <main
         css={css`
-          display: flex;
+          display: inline-flex;
         `}
       >
         <Window />
